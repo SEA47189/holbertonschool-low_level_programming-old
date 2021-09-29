@@ -1,7 +1,5 @@
 #include "main.h"
 /**
- * main - entry point
- *
  * function_name - _putchar
  *
  * prints_alphabet- prints the alphabet letters
@@ -15,6 +13,8 @@ void print_alphabet(void)
 	for (i = 97; i <= 122; i++)
 	{
 		_putchar(i);
+	}
+	{
 		_putchar('\n');
 	}
 
