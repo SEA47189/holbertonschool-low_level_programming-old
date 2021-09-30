@@ -2,19 +2,19 @@
 /**
  *add - add two numbers
  *
- *@int: numbers
+ *@a: numbers
+ *
+ *@b: number
  *
  *Return: 0 = Success
  */
-int add(int, int)
+int add(int a, int b)
 {
-	int a;
-	int b;
-	int sum;
+	int c;
 
-	sum = a + b;
+	c = a + b;
 	{
-		_putchar(sum + '0');
+		_putchar(c % 10 + '0');
 		_putchar('\n');
 	}
 	return (0);
