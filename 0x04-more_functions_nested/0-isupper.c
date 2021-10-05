@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
+ * _isupper - finds the upper case letter
+ *
  * Function_name - putchar
  *
  * putchar - prints letters
@@ -26,5 +28,5 @@ int _isupper(int c)
 		putchar(':');
 		putchar(' ');
 	}
-	return(0);
+	return (0);
 }
