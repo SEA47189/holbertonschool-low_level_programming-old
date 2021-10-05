@@ -23,11 +23,6 @@ int _isupper(int c)
 		putchar(' ');
 		return (1);
 	}
-	if ((c > 97) && (c < 122))
-	{
-		putchar(c);
-		putchar(':');
-		putchar(' ');
-	}
+	else
 	return (0);
 }
