@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- *Function_name: - putchar prints numbers
+ *reset_to_98 - replaces value with 98
  *
- * *@n - number given
- *
- *_reset_to_98 - replaces value with 98
+ *@n: - number given
  *
  *Return: void
  */
