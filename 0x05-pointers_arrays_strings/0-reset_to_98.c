@@ -1,11 +1,14 @@
 #include "main.h"
 /**
- *_reset_to_98 - updates value to 98
+ *Function_name: - putchar prints numbers
  *
- *Return: 0 = success
+ * *@n - number given
+ *
+ *_reset_to_98 - replaces value with 98
+ *
+ *Return: void
  */
 void reset_to_98(int *n)
 {
 	*n = 98;
-
 }
