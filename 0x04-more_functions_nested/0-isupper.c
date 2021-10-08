@@ -1,5 +1,5 @@
+#include "holberton.h"
 #include "main.h"
-#include <stdio.h>
 /**
  * _isupper - finds the upper case letter
  *
