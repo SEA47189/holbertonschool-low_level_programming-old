@@ -15,14 +15,13 @@
 int _isupper(int c)
 
 {
-	/* Loop to print upper case alphabet */
-	if ((c > 'A') && (c < 'Z'))
+	if ((c >= 65) && (c <= 90))
 	{
-		putchar(c);
-		putchar(':');
-		putchar(' ');
 		return (1);
 	}
-	else
+	if ((c >= 97) && (c <= 122))
+	{
+		return (0);
+	}
 	return (0);
 }
