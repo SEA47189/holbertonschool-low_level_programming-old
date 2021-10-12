@@ -3,8 +3,6 @@
 /**
  **_strncat - creates a new string by combining two
  *
- *Function_name: - strcpy, putchar
- *
  *@dest: string destination
  *
  *@src:  string source
@@ -15,20 +13,31 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-char d[6] = "Hello ";
-char s[7] = "World!\n";
-n = 1;
-{
-strcpy(d, "Hello");
-strcpy(s, "World\n");
+char d;
+char s;
 
-strncat(dest, src, n);
+for (n = 0; n >= 0; n++)
+for (; d != 0; d++)
+for (; s != 0; s++)
+
+if (s != '\0')
 {
-for (n = 0; n != '\0'; n++)
-dest = src + n;
+return (src);
 }
+if (d != '\0')
 {
 return (dest);
 }
+if (n > d)
+{
+return (dest);
+}
+if (n < s)
+{
+return (src);
+}
+else
+{
+return 0;
 }
 }
