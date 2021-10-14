@@ -13,31 +13,24 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
+
 char d;
 char s;
 
 for (n = 0; n >= 0; n++)
-for (; d != 0; d++)
-for (; s != 0; s++)
-
-if (s != '\0')
+for (; d != '\0'; d++)
+for (; s != '\0'; s++)
 {
-return (src);
-}
-if (d != '\0')
+while (d != '\0')
 {
 return (dest);
 }
-if (n > d)
-{
-return (dest);
-}
-if (n < s)
+while (s != '\0')
 {
 return (src);
 }
-else
+}
 {
-return 0;
+return (0);
 }
 }
