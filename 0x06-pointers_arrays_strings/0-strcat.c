@@ -13,21 +13,21 @@ char *_strcat(char *dest, char *src)
 {
 char d;
 char s;
- 
-for (; d != '\0'; d++)
- 
-for (; s != '\0'; s++)
- 
-if (d == '\0')
+
+for (d = 0; d < s && s != '\0'; d++)
+for (s = 0; s > d && d != '\0'; s++)
+{
+while (d < s)
+dest = '\0';
+d++;
+}
 {
 return (dest);
 }
-if (s == '\0')
 {
 return (src);
 }
-else
 {
-return 0;
+return (0);
 }
 }
