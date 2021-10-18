@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include "main.h"
+#include <stdio.h>
 /**
  *_strcpy - copies string
  *
@@ -8,4 +8,7 @@
  *
  *Return: void
  */
-char *_strcpy(char *dest, char *src)
+void main()
+{
+char *_strcpy(char *dest, char *src);
+}
