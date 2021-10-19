@@ -1,2 +1,3 @@
 #!/bin/bash
-find . -name '*.c' | mkdir -p ./liball.so
+gcc -c -fPIC *.c
+gcc -shared -o liball.so *.o
